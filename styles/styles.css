@@ -105,10 +105,9 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
 }
 
 .subtitulo {
