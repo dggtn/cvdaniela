@@ -3,6 +3,7 @@ body {
     background-color: #fdbd12;
     margin: 0px;
 }
+
 h1 {
     font-family: Arial, sans-serif;
     background-color: #fdbd12;
@@ -15,7 +16,7 @@ h1 {
     color: black;
     text-align: start;
     height: 120px;
-    
+
 }
 
 .navegador ul {
@@ -29,7 +30,7 @@ h1 {
     float: right;
     text-align: right;
     width: 15em;
-    
+
 }
 
 
@@ -55,13 +56,18 @@ li {
     border-radius: 0%;
     border-width: 150px;
     border: 10px solid white;
-    margin-top:15px;
+    margin-top: 15px;
     margin-left: 25px;
-    height:500px ;width:450px;
-    }
-.logo{border-radius: 0%;
-    height:120px;
-    width: 33em;}
+    height: 500px;
+    width: 450px;
+}
+
+.logo {
+    border-radius: 0%;
+    height: 120px;
+    width: 33em;
+}
+
 p {
     font-family: sans-serif;
     color: black;
