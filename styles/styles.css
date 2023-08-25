@@ -43,6 +43,7 @@ h1 {
 
 
 .titulo {
+    padding: 10px;
     float:right;
     font-weight: bold;
 }
