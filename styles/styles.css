@@ -16,7 +16,9 @@ h1 {
     color: black;
     text-align: start;
     height: 120px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .navegador ul {
@@ -29,7 +31,7 @@ h1 {
     background-color: white;
     float: right;
     text-align: right;
-    width: 15em;
+    width: 10em;
 
 }
 
