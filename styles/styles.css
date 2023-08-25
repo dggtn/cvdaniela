@@ -13,7 +13,8 @@ h1 {
 }
 
 h2{font-weight: bold;
-    margin-left: 77px;}
+    margin-left: 77px;
+    margin: 0px;}
 
 .navegador {
     background-color: white;
