@@ -44,7 +44,7 @@ h1 {
 
 .titulo {
     padding: 10px;
-    float:right;
+    float: right;
     font-weight: bold;
 }
 
@@ -84,8 +84,9 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: center;
-    font-size: 24pt;
-    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
 
 }
 
