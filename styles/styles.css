@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdbd12;
+    margin: 0px;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    background-color: #fdbd12;
+    margin: 0px;
+}
+
+.navegador {
+    background-color: white;
+    position: initial;
+    color: black;
+    text-align: start;
+    height: 120px;
+    
+}
+
+.navegador ul {
+    background-color: white;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.navegador li {
+    background-color: white;
+    float: right;
+    text-align: right;
+    width: 15em;
+    
+}
+
+
+
+
+h3 {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+li {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    text-decoration-thickness: auto;
+
+}
+
+
+.fotocv {
+    border-radius: 0%;
+    border-width: 150px;
+    border: 10px solid white;
+    margin-top:15px;
+    margin-left: 25px;
+    height:500px ;width:450px;
+    }
+.logo{border-radius: 0%;
+    height:120px;
+    width: 33em;}
+p {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.estudios {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.mis_estudios {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    padding: 40px 0;
+}
+
+.idiomas {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.datospersonales {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.subtitulo {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: bold
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.sinnegrita {
+    font-weight: normal
+}
