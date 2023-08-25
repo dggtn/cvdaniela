@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fdbd12;
     margin: 0px;
+    margin-left: 77px;
 }
 
 h1 {
@@ -47,6 +48,7 @@ h1 {
     padding: 10px;
     float: right;
     font-weight: bold;
+    margin-left: 77px;
 }
 
 li {
@@ -54,6 +56,7 @@ li {
     color: black;
     text-align: left;
     text-decoration-thickness: auto;
+    margin-left: 77px;
 
 }
 
@@ -79,15 +82,16 @@ p {
     color: black;
     text-align: left;
     font-weight: bold;
+    margin-left: 77px;
 }
 
 .estudios {
     font-family: sans-serif;
     color: black;
     text-align: center;
-    margin-left: 5%;
     margin-right: 5%;
     margin-top: 15%;
+    margin-left: 77px;
 
 }
 
@@ -96,7 +100,7 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: left;
-    margin-left: 2%;
+    margin-left: 77px;
     margin-right: 2%;
     margin-top: 2%;
     margin-bottom: 2%
@@ -106,7 +110,7 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 77px;
     margin-right: 5%;
     margin-top: 15%;
 }
@@ -115,7 +119,8 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: left;
-    font-weight: bold
+    font-weight: bold;
+    margin-left: 77px;
 }
 
 .negritas {
