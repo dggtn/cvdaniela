@@ -73,12 +73,17 @@ li {
     width: 450px;
 }
 
-.logo {
+.logos {
     border-radius: 0%;
     height: 40px;
     width: 3em;
 }
 
+.logo {
+    border-radius: 0%;
+    height: 120px;
+    width: 33em;
+}
 p {
     font-family: sans-serif;
     color: black;
