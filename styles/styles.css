@@ -46,8 +46,6 @@ h2 {
 }
 
 
-
-
 .titulo {
     padding: 10px;
     float: right;
@@ -77,8 +75,8 @@ li {
 
 .logo {
     border-radius: 0%;
-    height: 120px;
-    width: 33em;
+    height: 40px;
+    width: 3em;
 }
 
 p {
