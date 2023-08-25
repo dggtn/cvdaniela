@@ -33,8 +33,7 @@ h1 {
 .navegador li {
     background-color: white;
     float: right;
-    text-align: right;
-    width: 10em;
+    text-align: left;
     color: black;
     font-weight: bold;
 
