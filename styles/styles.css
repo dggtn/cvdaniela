@@ -84,16 +84,11 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: center;
+    font-size: 24pt;
     
 
 }
 
-.mis_estudios {
-    font-family: sans-serif;
-    color: black;
-    text-align: left;
-    padding: 40px 0;
-}
 
 .idiomas {
     font-family: sans-serif;
