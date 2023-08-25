@@ -12,9 +12,11 @@ h1 {
     margin-left: 77px;
 }
 
-h2{font-weight: bold;
+h2 {
+    font-weight: bold;
     margin-left: 77px;
-    margin: 0px;}
+    margin: 0px;
+}
 
 .navegador {
     background-color: white;
