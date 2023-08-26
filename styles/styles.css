@@ -34,6 +34,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center
+    width: 100%;
+    align-items: center;
+    display: flex;
     
 }
 
@@ -164,4 +167,4 @@ p {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: center}
+    justify-content: space-around;}
