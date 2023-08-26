@@ -34,6 +34,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center
+    
 }
 
 .navegador ul {
@@ -83,7 +84,8 @@ li {
     border-width: 150px;
     border: 10px solid white;
     margin-top: 15px;
-    margin-left: 25px;
+    margin-bottom: 140px;
+    margin-left: 825px;
     height: 500px;
     width: 450px;
 }
@@ -152,3 +154,14 @@ p {
 .sinnegrita {
     font-weight: normal
 }
+.footer{ background-color: white;
+    margin: 0px;
+    list-style-type: none;
+    color: #0C2E47;
+    position: initial;
+    color: #0C2E47;
+    text-align: start;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center}
