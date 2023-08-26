@@ -33,11 +33,10 @@ h2 {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: center
-    width: 100%;
+    justify-content: center width: 100%;
     align-items: center;
     display: flex;
-    
+
 }
 
 .navegador ul {
@@ -63,7 +62,8 @@ h2 {
     font-weight: bold;
 
 }
-section{
+
+section {
     min-height: 370px;
 }
 
@@ -94,6 +94,7 @@ li {
     margin-left: 825px;
     height: 500px;
     width: 450px;
+    float:rigt;
 }
 
 .logos {
@@ -107,6 +108,9 @@ li {
     height: 120px;
     width: 33em;
 }
+.centrar{
+    display:flex;
+    margin-left: 15%;}
 p {
     font-family: sans-serif;
     color: #0C2E47;
@@ -147,7 +151,7 @@ p {
 
 .subtitulo {
     font-family: sans-serif;
-    color:#0C2E47;
+    color: #0C2E47;
     text-align: left;
     font-weight: bold;
     margin-left: 77px;
@@ -160,7 +164,9 @@ p {
 .sinnegrita {
     font-weight: normal
 }
-.footer{ background-color: white;
+
+.footer {
+    background-color: white;
     margin: 0px;
     list-style-type: none;
     color: #0C2E47;
@@ -170,4 +176,5 @@ p {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
