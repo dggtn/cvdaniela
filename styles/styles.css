@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdbd12;
+    background-color: #89BBE1;
     margin: 0px;
 }
 
 h1 {
     font-family: sans-serif;
-    background-color: #fdbd12;
+    background-color: #89BBE1;
     margin: 0px;
     font-weight: bold;
     margin-left: 77px;
@@ -21,7 +21,7 @@ h2 {
 .navegador {
     background-color: white;
     position: initial;
-    color: black;
+    color: #0C2E47;
     text-align: start;
     height: 120px;
     display: flex;
@@ -33,9 +33,9 @@ h2 {
     background-color: white;
     margin: 0px;
     list-style-type: none;
-    color: black;
+    color: #0C2E47;
     position: initial;
-    color: black;
+    color: #0C2E47;
     text-align: start;
     height: 120px;
     display: flex;
@@ -48,7 +48,7 @@ h2 {
     background-color: white;
     float: right;
     text-align: left;
-    color: black;
+    color: #0C2E47;
     font-weight: bold;
 
 }
@@ -63,7 +63,7 @@ h2 {
 
 li {
     font-family: sans-serif;
-    color: black;
+    color: #0C2E47;
     text-align: left;
     text-decoration-thickness: auto;
     margin-left: 77px;
@@ -94,7 +94,7 @@ li {
 }
 p {
     font-family: sans-serif;
-    color: black;
+    color: #0C2E47;
     text-align: left;
     font-weight: bold;
     margin-left: 77px;
@@ -102,7 +102,7 @@ p {
 
 .estudios {
     font-family: sans-serif;
-    color: black;
+    color: #0C2E47;
     text-align: center;
     margin-right: 5%;
     margin-top: 15%;
@@ -113,7 +113,7 @@ p {
 
 .idiomas {
     font-family: sans-serif;
-    color: black;
+    color: #0C2E47;
     text-align: left;
     margin-left: 77px;
     margin-right: 2%;
@@ -123,7 +123,7 @@ p {
 
 .datospersonales {
     font-family: sans-serif;
-    color: black;
+    color: #0C2E47;
     text-align: left;
     margin-left: 77px;
     margin-right: 5%;
@@ -132,7 +132,7 @@ p {
 
 .subtitulo {
     font-family: sans-serif;
-    color: black;
+    color:#0C2E47;
     text-align: left;
     font-weight: bold;
     margin-left: 77px;
