@@ -63,6 +63,9 @@ h2 {
     font-weight: bold;
 
 }
+section{
+    min-height: 370px;
+}
 
 
 .titulo {
