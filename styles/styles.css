@@ -34,6 +34,13 @@ h2 {
     margin: 0px;
     list-style-type: none;
     color: black;
+    position: initial;
+    color: black;
+    text-align: start;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 
