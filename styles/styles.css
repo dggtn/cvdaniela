@@ -47,6 +47,7 @@ body {
 .container {
     margin-top: 50px;
     color: #007bff;
+    min-height: 400px;
 }
 
 /* Centered text style */
@@ -60,7 +61,7 @@ body {
     background-color: #f8f9fa;
     width: 100%;
     z-index: 200;
-    
+
 }
 
 /* Social media icon styles */
@@ -71,6 +72,11 @@ body {
 
 .logos:hover {
     transform: scale(1.2);
+}
+.full-width-footer {
+    width: 100%;
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    /* Agrega otros estilos específicos del footer aquí */
 }
 
 .logo {
