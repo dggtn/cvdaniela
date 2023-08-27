@@ -58,8 +58,8 @@ body {
 /* Footer styles */
 .footer {
     background-color: #f8f9fa;
-    width: 78%;
-    position: static;
+    width: 100%;
+    z-index: 200;
 }
 
 /* Social media icon styles */
