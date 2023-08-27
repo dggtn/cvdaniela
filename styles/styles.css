@@ -60,6 +60,7 @@ body {
     background-color: #f8f9fa;
     width: 100%;
     z-index: 200;
+    
 }
 
 /* Social media icon styles */
@@ -108,3 +109,5 @@ body {
         background-color: rgb(133, 131, 194);
     }
 }
+
+.row{display:flow;}
