@@ -22,6 +22,7 @@ body {
 
 .navbar-brand {
     margin-left: 20px;
+    color: #007bff;
 }
 
 .navbar-toggler-icon {
@@ -77,13 +78,14 @@ body {
     text-align: center;
     padding: 15px 0;
     font-size: 24px;
-    color:#007bff;
+    color: #007bff;
     background-color: #f8f9fa;
 }
 
 .logo span {
     font-size: 32px;
     font-weight: bold;
+    color: #007bff;
 }
 
 /* Image thumbnail style */
@@ -91,6 +93,12 @@ body {
     margin: 15px 0;
     border-radius: 10.25rem
 }
+
+.negritas {
+    font-weight: bold;
+}
+
+.nonegritas{font-weight:normal;}
 
 
 /* more styles for my specific content sections */
