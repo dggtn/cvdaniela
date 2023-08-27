@@ -58,15 +58,13 @@ body {
 /* Footer styles */
 .footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
-    margin-left: -102px;
+    width: 78%;
+    position: static;
 }
 
 /* Social media icon styles */
 .logos {
-    width: 30px;
     height: 30px;
-    margin-right: 15px;
     transition: transform 0.2s;
 }
 
@@ -79,7 +77,6 @@ body {
     padding: 15px 0;
     font-size: 24px;
     color: #007bff;
-    background-color: #f8f9fa;
 }
 
 .logo span {
@@ -98,13 +95,15 @@ body {
     font-weight: bold;
 }
 
-.nonegritas{font-weight:normal;}
+.nonegritas {
+    font-weight: normal;
+}
 
 
 /* more styles for my specific content sections */
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .navbar-toggler-icon {
         background-color: rgb(133, 131, 194);
     }
