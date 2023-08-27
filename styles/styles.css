@@ -41,6 +41,8 @@ body {
 
 .navbar-nav .nav-link:hover {
     color: #007bff;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Container for content */
@@ -61,7 +63,7 @@ body {
     background-color: #f8f9fa;
     width: 100%;
     z-index: 200;
-    height:50px;
+    height: 50px;
 
 }
 
@@ -74,10 +76,12 @@ body {
 .logos:hover {
     transform: scale(1.2);
 }
+
 .full-width-footer {
     width: 100%;
-    padding: 20px; /* Ajusta el relleno según sea necesario */
-    
+    padding: 20px;
+    /* Ajusta el relleno según sea necesario */
+
 }
 
 .logo {
@@ -96,7 +100,8 @@ body {
 /* Image thumbnail style */
 .img-thumbnail {
     margin: 15px 0;
-    border-radius: 10.25rem
+    border-radius: 10.25re;
+    align-items: left;
 }
 
 .negritas {
@@ -117,4 +122,6 @@ body {
     }
 }
 
-.row{display:flow;}
+.row {
+    display: flow;
+}
