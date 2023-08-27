@@ -1,180 +1,86 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #89BBE1;
-    margin: 0px;
 }
 
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: #89BBE1;
-    margin: 0px;
-    font-weight: bold;
-    margin-left: 77px;
-}
 
-h2 {
-    font-weight: bold;
-    margin-left: 77px;
-    margin: 0px;
-}
-
-.navegador {
+/* Navbar styles */
+.navbar {
     background-color: white;
-    position: initial;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-toggler-icon {
+    background-color: #0C2E47;
+}
+
+.navbar-nav {
     color: #0C2E47;
-    text-align: start;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center width: 100%;
-    align-items: center;
-    display: flex;
-
+    transition: color 0.2s;
 }
-
-.navegador ul {
-    background-color: white;
-    margin: 0px;
-    list-style-type: none;
+.nav-link {
     color: #0C2E47;
-    position: initial;
-    color: #0C2E47;
-    text-align: start;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    transition: color 0.2s;
 }
 
-
-.navegador li {
-    background-color: white;
-    float: right;
-    text-align: left;
-    color: #0C2E47;
-    font-weight: bold;
-
+.navbar-nav .nav-link:hover {
+    color: #007bff;
 }
 
-section {
-    min-height: 370px;
+/* Container for content */
+.container {
+    margin-top: 50px;
 }
 
-
-.titulo {
-    padding: 10px;
-    float: right;
-    font-weight: bold;
-    margin-left: 77px;
-}
-
-li {
-    font-family: sans-serif;
-    color: #0C2E47;
-    text-align: left;
-    text-decoration-thickness: auto;
-    margin-left: 77px;
-
-}
-
-
-.fotocv {
-    border-radius: 27%;
-    border-width: 150px;
-    border: 10px solid white;
-    margin-top: 15px;
-    margin-bottom: 140px;
-    margin-left: 825px;
-    height: 500px;
-    width: 450px;
-    float:rigt;
-}
-
-.logos {
-    border-radius: 0%;
-    height: 40px;
-    width: 3em;
-}
-
-.logo {
-    border-radius: 0%;
-    height: 120px;
-    width: 33em;
-}
-.centrar{
-    display:flex;
-    margin-left: 15%;}
-p {
-    font-family: sans-serif;
-    color: #0C2E47;
-    text-align: left;
-    font-weight: bold;
-    margin-left: 77px;
-}
-
-.estudios {
-    font-family: sans-serif;
-    color: #0C2E47;
+/* Centered text style */
+.text-center {
     text-align: center;
-    margin-right: 5%;
-    margin-top: 15%;
-    margin-left: 77px;
-
 }
 
-
-.idiomas {
-    font-family: sans-serif;
-    color: #0C2E47;
-    text-align: left;
-    margin-left: 77px;
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%
-}
-
-.datospersonales {
-    font-family: sans-serif;
-    color: #0C2E47;
-    text-align: left;
-    margin-left: 77px;
-    margin-right: 5%;
-    margin-top: 15%;
-}
-
-.subtitulo {
-    font-family: sans-serif;
-    color: #0C2E47;
-    text-align: left;
-    font-weight: bold;
-    margin-left: 77px;
-}
-
-.negritas {
-    font-weight: bold;
-}
-
-.sinnegrita {
-    font-weight: normal
-}
-
+/* Footer styles */
 .footer {
-    background-color: white;
-    margin: 0px;
-    list-style-type: none;
-    color: #0C2E47;
-    position: initial;
-    color: #0C2E47;
-    text-align: start;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+/* Social media icon styles */
+.logos {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    transition: transform 0.2s;
+}
+
+.logos:hover {
+    transform: scale(1.2);
+}
+
+/* Image thumbnail style */
+.img-thumbnail {
+    border: none;
+    border-radius: 27%;
+    margin: 15px 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* more styles for my specific content sections */
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: whitesmoke;
+    }
 }
