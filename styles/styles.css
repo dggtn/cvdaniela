@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:solid #007bff;
 }
 
 /* Global styles */
@@ -49,6 +50,7 @@ body {
 /* Centered text style */
 .text-center {
     text-align: center;
+    color:solid #007bff;
 }
 
 /* Footer styles */
@@ -84,11 +86,14 @@ body {
 
 /* Image thumbnail style */
 .img-thumbnail {
-    border:#0C2E47;
-    border-radius: 10em;
     margin: 15px 0;
-    padding: 0;
-    background-color: rgb(52, 47, 197);
+    border-radius: 10.25rem
+    padding: .25rem;
+    border: 1px solid #dee2e6;
+    border-radius: 10.25rem;
+    max-width: 100%;
+    height: auto;
+}
 }
 
 /* more styles for my specific content sections */
