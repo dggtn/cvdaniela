@@ -8,14 +8,15 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #89BBE1;
+    color:#007bff;
 }
 
 
 /* Navbar styles */
 .navbar {
-    background-color: white;
+    text-align: center;
     padding: 15px 0;
+    border-bottom: 5px solid #007bff;
 }
 
 .navbar-brand {
@@ -23,15 +24,15 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-color: #0C2E47;
+    background-color:#007bff;
 }
 
 .navbar-nav {
-    color: #0C2E47;
+    color:#007bff;
     transition: color 0.2s;
 }
 .nav-link {
-    color: #0C2E47;
+    color: #007bff;
     transition: color 0.2s;
 }
 
@@ -42,6 +43,7 @@ body {
 /* Container for content */
 .container {
     margin-top: 50px;
+    color: #007bff;
 }
 
 /* Centered text style */
@@ -51,8 +53,9 @@ body {
 
 /* Footer styles */
 .footer {
-    background-color: #fff;
+    background-color: #007bff;
     padding: 20px 0;
+    margin-left:-102px;
 }
 
 /* Social media icon styles */
@@ -66,14 +69,26 @@ body {
 .logos:hover {
     transform: scale(1.2);
 }
+.logo {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    color: white;
+    background-color: #0C2E47;
+    border-bottom: 5px solid #007bff;
+}
+.logo span {
+    font-size: 32px;
+    font-weight: bold;
+}
 
 /* Image thumbnail style */
 .img-thumbnail {
-    border: none;
-    border-radius: 27%;
+    border:#0C2E47;
+    border-radius: 10em;
     margin: 15px 0;
     padding: 0;
-    background-color: transparent;
+    background-color: rgb(52, 47, 197);
 }
 
 /* more styles for my specific content sections */
@@ -81,6 +96,7 @@ body {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .navbar-toggler-icon {
-        background-color: whitesmoke;
+        background-color: rgb(133, 131, 194);
     }
 }
+
