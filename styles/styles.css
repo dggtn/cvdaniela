@@ -52,9 +52,10 @@ body {
     min-height: 100px;
 }
 
-.centrar{
+.centrar {
     height: 100px;
 }
+
 /* Centered text style */
 .text-center {
     text-align: center;
@@ -119,12 +120,8 @@ body {
 /* more styles for my specific content sections */
 
 /* Media queries for responsiveness */
-@media (max-width: 400px) {
+@media (max-width: 620px) {
     .navbar-toggler-icon {
         background-color: rgb(133, 131, 194);
-    }
-}
-
-.row {
-    display: flow;
-}
+        width: 100%;
+    }}
