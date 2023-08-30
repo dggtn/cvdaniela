@@ -11,7 +11,11 @@ body {
     font-family: Arial, sans-serif;
     color: #007bff;
 }
-
+.img-fluid{
+    border-radius: 200px;
+    max-width: 25%;
+    height:500px !important;
+}
 
 /* Navbar styles */
 .navbar {
@@ -50,10 +54,6 @@ body {
     margin-top: 50px;
     color: #007bff;
     min-height: 100px;
-}
-
-.centrar {
-    height: 100px;
 }
 
 /* Centered text style */
@@ -101,13 +101,6 @@ body {
     color: #007bff;
 }
 
-/* Image thumbnail style */
-.img-thumbnail {
-    margin: 15px 0;
-    border-radius: 10.25re;
-    align-items: left;
-}
-
 .negritas {
     font-weight: bold;
 }
@@ -115,7 +108,7 @@ body {
 .nonegritas {
     font-weight: normal;
 }
-
+.centrar{height:100px}
 
 /* more styles for my specific content sections */
 
