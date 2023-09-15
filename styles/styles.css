@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: solid #007bff;
+  color: solid 
 }
 
 /* Global styles */
@@ -21,7 +21,6 @@ body {
 .navbar {
   text-align: center;
   padding: 15px 0;
-  border-bottom: 5px solid #007bff;
 }
 
 .navbar-brand {
