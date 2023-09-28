@@ -1,12 +1,136 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Deca:wght@500&family=Rubik&display=swap");
 
-* {
+#---------------------------------------------header * {
   margin: 0;
   padding: 0;
 }
+.header {
+  border-bottom: 3px solid rgb(22, 75, 220);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  color: white;
+  padding: 12px;
+  font-size: 1.7em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav-item:hover {
+  background-color: rgb(157, 205, 228);
+  color: whitesmoke;
+  border-radius: 30px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+input {
+  display: none;
+}
+.burger {
+  display: none;
+}
+.contenedor {
+  display: flex;
+}
+.presentacion {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  width: 80%;
+}
+
+.foto_cv {
+  border-radius: 50%;
+  border-color: rgb(52, 110, 204);
+  height: 150px;
+}
+
+.columna {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 110, 204);
+}
+
+.copyright p {
+  padding-left: 16px;
+}
+
+.alineacion {
+  padding-left: 16px;
+}
+
+@media (min-width: 701px) {
+  .contenedor {
+    flex-flow: row nowrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+    padding: 0;
+  }
+
+  .burger {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid rgb(40, 58, 195);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-color: cadetblue;
+  }
+
+  input:checked ~ ul {
+    display: block;
+  }
+
+  .nav-item {
+    border-bottom: 2px solid #f1f1f1;
+    font-size: 1.2em;
+    padding: 4px;
+    background-color: azure;
+  }
+
+  .contenedor {
+    flex-flow: column nowrap;
+  }
+
+  .presentacion {
+    width: 100%;
+  }
+  .alineacion{
+    padding-right: 16px;
+  }
+}
 
 body {
-  font-family: 'Dela Gothic One" , "Lexend Deca';
+  background-color: rgb(61, 88, 196);
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+  margin: 0;
+  color: rgb(201, 220, 255);
 }
 
 .seccion-bienvenida {
@@ -33,6 +157,33 @@ body {
   font-size: 25px;
 }
 
+#-------------------------------body ul {
+  list-style-type: none;
+}
+
+button {
+  overflow: hidden;
+  color: whitesmoke;
+  padding: 20px 10px;
+  position: sticky;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(52, 110, 204);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(157, 205, 228);
+  color: whitesmoke;
+}
+
+.ancho {
+  padding-left: 20px;
+}
 .nombre {
   line-height: 0.9em;
   font-size: 88px;
@@ -53,6 +204,7 @@ body {
 .texto {
   line-height: 2em;
   font-size: 21px;
+  color: white;
 }
 .white {
   color: white;
@@ -60,64 +212,21 @@ body {
 
 .seccion-bienvenida-fondo-azul {
   background-color: rgb(52, 110, 204);
+  border-left: 5px solid #557cef;
 }
 
 .container {
   display: flex;
   align-items: center;
-  background-image: url("../img/fondo.jpg");
-  height: 700px;
-  width: 80%;
+
+  justify-content: left;
 }
 .container2 {
   display: flex;
   align-items: center;
-  background-color: whitesmoke;
-  height: 300px;
-  width: 100%;
-}
-header {
-  overflow: hidden;
   background-color: rgb(52, 110, 204);
-  padding: 20px 10px;
-  position: sticky;
-  text-align: center;
-}
-
-header a {
-  text-align: center;
-  float: none;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: solid;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-header a:hover {
-  background-color: rgb(157, 205, 228);
-  color: whitesmoke;
-}
-
-header a.active {
-  background-image: linear-gradient(to right, #b8c8eb, #ccc0e3);
-  color: white;
-}
-
-.navbar {
-  float: center;
-}
-
-.foto_cv {
-  border-radius: 50%;
-  border-color: rgb(52, 110, 204);
-  border-width: 25%;
-  height: 150px;
-  float: center;
-  margin-left: 25%;
+  height: 200px;
+  width: 100%;
 }
 
 h1,
@@ -125,12 +234,11 @@ h2,
 h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: justify;
-  color: rgb(52, 110, 204);
+  color: white;
 }
 
 .texto {
-  color: rgb(105, 117, 197);
-  
+  color: white;
 }
 
 .texto-centrado {
@@ -148,12 +256,11 @@ div.center {
 
 .row {
   display: flex;
-  
 }
-.padre-flex{
+.padre-flex {
   display: flex;
-  flex-direction:row;
-  align-items:baseline;
+  flex-direction: row;
+  align-items: baseline;
   justify-content: space-around;
   margin-bottom: 10px;
 }
@@ -163,55 +270,43 @@ div.center {
   margin-top: 15px;
 }
 
-.formacion h3, .formacion h1, .formacion p {
+.formacion h3,
+.formacion h1,
+.formacion p {
   margin-bottom: 5px;
   text-align: center;
 }
 
-.footer {
-  display: flex;
-  flex-flow: column nowrap; 
-  
-}
+
 
 .contacto {
-  height: 150px;
+  height: 80px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background-image: linear-gradient(to bottom right, rgb(86, 102, 193), rgb(187, 184, 244));
+  align-items: center;
+  background-color: rgb(52, 110, 204);
+  border-top: 5px solid #557cef;
 }
 
-.copyright {
-  background-image: linear-gradient(to bottom right, rgb(115, 124, 173), rgb(180, 179, 204));
+#-------------------------footer .footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
 }
 
-.redes-sociales {
-  display:flex;
-  align-content: flex-end;
-}
+
 
 .redes-sociales img {
-  height: 100%;
-  width: 30px;
+  height: 45px;
+  width: 45px;
 }
-
-.ancho{
-  padding-left:20px;
-}
-
-
-button {
-  border-style: double;
-  border-radius: 20%;
-}
-ul{
-  list-style-type: none;
-}
-
-.columna{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+img a:hover {
+  background-color: rgb(157, 205, 228);
+  color: whitesmoke;
 }
