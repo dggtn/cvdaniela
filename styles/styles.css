@@ -73,7 +73,7 @@ body {
   display: flex;
   align-items: center;
   background-color: whitesmoke;
-  height: 700px;
+  height: 300px;
   width: 100%;
 }
 header {
@@ -148,20 +148,23 @@ div.center {
 
 .row {
   display: flex;
+  
 }
-
+.padre-flex{
+  display: flex;
+  flex-direction:row;
+  align-items:baseline;
+}
 footer {
   width: 100%;
   background-color: #f1f1f1;
   height: 300px;
-  display: flex;
-  
+ 
 }
 
 .redes-sociales {
-  float: right;
-  display: flex;
-  justify-content: center;
+  display:flex;
+  align-content: flex-end;
 }
 
 .redes-sociales img {
@@ -176,6 +179,9 @@ footer {
   
 }
 
+.ancho{
+  padding-left:20px;
+}
 
 .columna2{
   width:50%;
