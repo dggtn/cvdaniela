@@ -155,11 +155,28 @@ div.center {
   flex-direction:row;
   align-items:baseline;
 }
-footer {
-  width: 100%;
-  background-color: #f1f1f1;
-  height: 300px;
- 
+
+.footer {
+  display: flex;
+  flex-flow: column nowrap; 
+  
+}
+
+.contacto {
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right, rgb(86, 102, 193), rgb(187, 184, 244));  
+
+}
+
+.contacto > div {
+  flex: 1;
+}
+
+.copyright {
+  background-image: linear-gradient(to bottom right, rgb(115, 124, 173), rgb(180, 179, 204));
 }
 
 .redes-sociales {
@@ -172,25 +189,22 @@ footer {
   width: 30px;
 }
 
-.columna1{
-  width:50%;
-  padding-left: 20px;
-  padding-top: 15px;
-  
-}
-
 .ancho{
   padding-left:20px;
 }
 
-.columna2{
-  width:50%;
 
-}
 button {
   border-style: double;
   border-radius: 20%;
 }
 ul{
   list-style-type: none;
+}
+
+.columna{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
