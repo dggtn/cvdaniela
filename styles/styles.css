@@ -154,6 +154,18 @@ div.center {
   display: flex;
   flex-direction:row;
   align-items:baseline;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.formacion {
+  width: 75%;
+  margin-top: 15px;
+}
+
+.formacion h3, .formacion h1, .formacion p {
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .footer {
@@ -167,12 +179,7 @@ div.center {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background-image: linear-gradient(to bottom right, rgb(86, 102, 193), rgb(187, 184, 244));  
-
-}
-
-.contacto > div {
-  flex: 1;
+  background-image: linear-gradient(to bottom right, rgb(86, 102, 193), rgb(187, 184, 244));
 }
 
 .copyright {
