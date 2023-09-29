@@ -64,8 +64,6 @@ input {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: rgb(52, 110, 204);
 }
@@ -89,6 +87,11 @@ input {
   }
   .nombre{
     font-size:1.9em;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0px;
   }
 }
 
@@ -139,6 +142,14 @@ input {
   }
   .alineacion{
     padding-right: 16px;
+  }
+
+  .footer {
+    margin-top: 16px;
+  }
+
+  main{
+    min-height:85vh;
   }
 }
 
