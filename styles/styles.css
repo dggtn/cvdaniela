@@ -87,12 +87,18 @@ input {
   .contenedor {
     flex-flow: row nowrap;
   }
+  .nombre{
+    font-size:1.9em;
+  }
 }
 
 @media (max-width: 700px) {
   .navbar {
     display: none;
     padding: 0;
+  }
+  .nombre{
+    font-size:1.9em;
   }
 
   .columna-2{
@@ -199,8 +205,6 @@ button:hover {
   padding-left: 20px;
 }
 .nombre {
-  line-height: 0.9em;
-  font-size: 88px;
   line-height: 0.9em;
   font-family: "Playfair Display", serif;
   color: white;
