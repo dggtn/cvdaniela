@@ -56,6 +56,11 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+}
+
+.columna-2 {
+  width: 50%;
 }
 
 .footer {
@@ -277,7 +282,7 @@ div.center {
 
 .formacion h3,
 .formacion h1,
-.formacion p {
+.formacion p, span {
   margin-bottom: 5px;
   text-align: center;
 }

@@ -3,84 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formación y experiencia </title>
+    <title>Formación y experiencia</title>
     <link rel="stylesheet" href="../styles/styles.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Josefin+Sans&family=Playfair+Display:ital,wght@1,800&family=Roboto:wght@700&display=swap');
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Josefin+Sans&family=Playfair+Display:ital,wght@1,800&family=Roboto:wght@700&display=swap");
+    </style>
   </head>
 
   <body>
-    <header>
-      <nav class="navbar">
-        <a href="../index.html">Inicio</a>
-        <a href="sobremi.html">Sobre mí</a>
-        <a href="formacion.html">Formación y experiencia </a>
-        <a href="aptitudes.html">Aptitudes e idiomas</a>
-      </nav>
-    </header>
+    <header class="header">
+        <nav>
+          <input id="burger" type="checkbox" />
+          <label for="burger" class="burger"> ☰ </label>
+          <ul class="navbar">
+            <li class="nav-item"><a href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a href="sobremi.html">Sobre mí</a></li>
+            <li class="nav-item">
+              <a href="formacion.html">Formación y experiencia </a>
+            </li>
+            <li class="nav-item">
+              <a href="aptitudes.html">Aptitudes e idiomas</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     <main>
-      <div class="row">
-      <div id="formacion" class="padre-flex">
-        <div class="columna">
-          <div class="formacion">
-            <h1>Idiomas</h1>
-            <p>LO QUE PUEDO APORTAR:</p>
-          </div>
-          <div class="formacion">
-          </div>
-          <div class="formacion">
-            <h3>Ingles nivel b2</h3>
-            <span>
-              TOFEL
-            </span>
-          </div>
-          <div class="formacion">
-            <h3>Aleman nivel B1</h3>
-            <span>Goethe Zertifikat B1</span>
-          </div>
-          <div class="formacion">
-            <h3>Frances nivel B2</h3>
-            <span>
-              Delf b2
-            </span>
-          </div>
-        </div>
-        <div class="columna2">
-          <div class="formacion">
-            <h1>Habilidades</h1>
-          </div>
-          <div class="formacion">
-            <span>Análisis de datos</span>
+      <div class="contenedor">        
+          <div class="columna columna-2">
+            <div class="formacion">
+              <h1>Idiomas</h1>
+              <span>LO QUE PUEDO APORTAR:</span>
             </div>
             <div class="formacion">
-            <span>Redacción de contenidos</span>
+              <h3>Ingles nivel b2</h3>
+              <span> TOFEL </span>
             </div>
             <div class="formacion">
-            <span>HTML Y CSS</span>
+              <h3>Aleman nivel B1</h3>
+              <span>Goethe Zertifikat B1</span>
             </div>
             <div class="formacion">
-            <span>Email Marketing</span>
+              <h3>Frances nivel B2</h3>
+              <span> Delf b2 </span>
+            </div>
+          </div>
+          <div class="columna columna-2">
+            <div class="formacion">
+              <h1>Habilidades</h1>
             </div>
             <div class="formacion">
-            <span>Gestión de redes sociales</span>
+              <span>Análisis de datos</span>
             </div>
             <div class="formacion">
-            <span>Python</span>
-            </span>
+              <span>Redacción de contenidos</span>
             </div>
+            <div class="formacion">
+              <span>HTML Y CSS</span>
+            </div>
+            <div class="formacion">
+              <span>Email Marketing</span>
+            </div>
+            <div class="formacion">
+              <span>Gestión de redes sociales</span>
+            </div>
+            <div class="formacion">
+              <span>Python</span>
+            </div>
+          </div>
       </div>
     </main>
     <footer class="footer">
-        <div class="contacto redes-sociales"><a href="https://github.com/dggtn9" target="_blank">
-          <img src="../img/github.svg" /></a>
-        <a href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
-          target="_blank"><img src="../img/linkedin.svg" /></a></div>
-        </div>
-              
-        <div class="copyright">
-          <p>© 2023 Creado por Daniela Gangotena</p>
-        </div>
-      </footer>
-    </body>
-  </html>
+      <div class="contacto redes-sociales">
+        <a href="https://github.com/dggtn9" target="_blank">
+          <img src="../img/github.svg" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
+          target="_blank"
+        >
+          <img src="../img/linkedin.svg" />
+        </a>
+      </div>
+
+      <div class="copyright">
+        <p>© 2023 Creado por Daniela Gangotena</p>
+      </div>
+    </footer>
+  </body>
+</html>
