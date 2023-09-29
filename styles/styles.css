@@ -73,6 +73,11 @@ input {
   padding-left: 16px;
 }
 
+.texto {
+  width: 75%;
+  font-size: 1.2em;
+}
+
 @media (min-width: 701px) {
   .contenedor {
     flex-flow: row nowrap;
@@ -280,7 +285,6 @@ div.center {
 
 
 .contacto {
-  height: 80px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
