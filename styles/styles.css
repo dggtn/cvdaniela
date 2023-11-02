@@ -4,9 +4,7 @@
   margin: 0;
   padding: 0;
 }
-.header {
-  border-bottom: 3px solid #164bdc;
-}
+
 
 .navbar {
   display: flex;
@@ -238,6 +236,7 @@ button:hover {
 }
 .white {
   color: white;
+  
 }
 
 .seccion-bienvenida-fondo-azul {
