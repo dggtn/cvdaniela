@@ -14,7 +14,7 @@ body {
 
 body > footer {
   position: sticky;
-  bottom: 80vh;
+  bottom: 90vh;
 }
 body {
   margin: 0;
@@ -68,6 +68,7 @@ input {
   border-radius: 50%;
   border-color: rgb(52, 110, 204);
   height: 150px;
+  margin-top:0;
 }
 
 .columna {
