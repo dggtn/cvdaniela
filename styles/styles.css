@@ -3,8 +3,10 @@
 #---------------------------------------------header * {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .navbar {
   display: flex;
@@ -17,11 +19,14 @@
   padding: 12px;
   font-size: 1.7em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .nav-item:hover {
   background-color: rgb(157, 205, 228);
-  color: whitesmoke;
-  border-radius: 30px;
+
+  border-radius: 45px;
 }
 
 .nav-item a {
@@ -56,6 +61,13 @@ input {
   justify-content: space-around;
   text-align: center;
 }
+.columna {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
 
 .columna-2 {
   width: 50%;
@@ -64,6 +76,7 @@ input {
 .footer {
   width: 100%;
   background-color: #336ecc;
+  position: fixed;
 }
 
 .copyright p {
@@ -84,27 +97,48 @@ input {
   .contenedor {
     flex-flow: row nowrap;
   }
-  .nombre{
-    font-size:1.9em;
-  }
-
   .footer {
     position: fixed;
     bottom: 0px;
   }
+  .nombre {
+    font-size: 1.9em;
+  }
 }
 
 @media (max-width: 700px) {
+  main {
+    min-height: 85vh;
+  }
   .navbar {
     display: none;
     padding: 0;
   }
-  .nombre{
-    font-size:1.9em;
+  .nombre {
+    font-size: 1.9em;
+  }
+  .nav-item {
+    color: white;
+    padding: 12px;
+    font-size: 1.7em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .nav-item:hover {
+    background-color: rgb(157, 205, 228);
+
+    border-radius: 45px;
   }
 
-  .columna-2{
-  width:100%;
+  .nav-item a {
+    text-decoration: none;
+  }
+
+  .columna-2 {
+    width: 100%;
   }
 
   .burger {
@@ -129,7 +163,6 @@ input {
     border-bottom: 2px solid #f1f1f1;
     font-size: 1.2em;
     padding: 4px;
-    background-color: azure;
   }
 
   .contenedor {
@@ -139,16 +172,18 @@ input {
   .presentacion {
     width: 100%;
   }
-  .alineacion{
+  .alineacion {
     padding-right: 16px;
   }
 
   .footer {
-    margin-top: 16px;
+    margin-top: 10;
+    position: fixed;
+    bottom: 0px;
   }
 
-  main{
-    min-height:85vh;
+  main {
+    min-height: 85vh;
   }
 }
 
@@ -160,7 +195,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
   margin: 0;
-  color: rgb(201, 220, 255);
+  color: 3px solid white;
 }
 
 .seccion-bienvenida {
@@ -236,7 +271,6 @@ button:hover {
 }
 .white {
   color: white;
-  
 }
 
 .seccion-bienvenida-fondo-azul {
@@ -293,7 +327,176 @@ div.center {
   justify-content: space-around;
   margin-bottom: 10px;
 }
+#fcf-form {
+  display: block;
+}
 
+.fcf-body {
+  margin: 0;
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: hsl(228, 53%, 50%);
+  padding: 30px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(52, 110, 204);
+  border-radius: 0.25rem;
+  max-width: 100%;
+  size: small;
+}
+
+.fcf-form-group {
+  margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.fcf-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-color: 1px solid #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.fcf-form-control:focus {
+  border: 1px solid #313131;
+}
+
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
+  height: auto;
+}
+
+textarea.fcf-form-control {
+  font-family: -apple-system, Arial, sans-serif;
+  height: auto;
+}
+
+label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  color: white;
+}
+
+.fcf-credit {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #545b62;
+}
+
+.fcf-credit a {
+  color: #545b62;
+  text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.fcf-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fcf-btn {
+    transition: none;
+  }
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus,
+.fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg,
+.fcf-btn-group-lg > .fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fcf-btn-block + .fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
+  width: 100%;
+}
 .formacion {
   width: 75%;
   margin-top: 15px;
@@ -301,12 +504,12 @@ div.center {
 
 .formacion h3,
 .formacion h1,
-.formacion p, span {
+.formacion p,
+span {
   margin-bottom: 5px;
   text-align: center;
+  color: 1px solid white;
 }
-
-
 
 .contacto {
   display: flex;
@@ -327,8 +530,6 @@ div.center {
   overflow: hidden;
   margin-bottom: 0px;
 }
-
-
 
 .redes-sociales img {
   height: 45px;

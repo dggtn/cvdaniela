@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Sobre mí</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <input id="burger" type="checkbox" />
+        <label for="burger" class="burger"> ☰ </label>
+        <ul class="navbar">
+          <li class="nav-item">
+            <a href="../index.html"><p style="color: white">Inicio</p></a>
+          </li>
+          <li class="nav-item">
+            <a href="sobremi.html"><p style="color: white">Sobre mí</p></a>
+          </li>
+          <li class="nav-item">
+            <a href="formacion.html"
+              ><p style="color: white">Formación y experiencia</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="aptitudes.html"
+              ><p style="color: white">Aptitudes e idiomas</p></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html"><p style="color: white">Contacto</p></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contenedor">
+          <div class="columna3">
+            <div class="fcf-body">
+              <div id="fcf-form">
+                <h1 class="fcf-h1">
+                  Si estas interesado en mi cv no dudes en contactarme:
+                </h1>
+
+                <form
+                  id="fcf-form-id"
+                  class="fcf-form-class"
+                  method="post"
+                  action="contact-form-process.php"
+                >
+                  <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Nombre</label>
+                    <div class="fcf-input-group">
+                      <input
+                        type="text"
+                        id="Name"
+                        name="Name"
+                        class="fcf-form-control"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label"
+                      >correo electrónico</label
+                    >
+                    <div class="fcf-input-group">
+                      <input
+                        type="email"
+                        id="Email"
+                        name="Email"
+                        class="fcf-form-control"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">mensaje</label>
+                    <div class="fcf-input-group">
+                      <textarea
+                        id="Message"
+                        name="Message"
+                        class="fcf-form-control"
+                        rows="6"
+                        maxlength="3000"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="fcf-form-group">
+                    <button
+                      type="submit"
+                      id="fcf-button"
+                      class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                    >
+                      Enviar Mensaje
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+    </main>
+    <footer class="footer">
+      <div class="contacto redes-sociales">
+        <a href="https://github.com/dggtn9" target="_blank">
+          <img src="../img/github.svg" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
+          target="_blank"
+        >
+          <img src="../img/linkedin.svg" />
+        </a>
+      </div>
+
+      <div class="copyright">
+        <p>© 2023 Creado por Daniela Gangotena</p>
+      </div>
+    </footer>
+  </body>
+</html>
