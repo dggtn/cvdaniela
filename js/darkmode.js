@@ -17,6 +17,8 @@ function cargarModo() {
    if (darkModeSeleccionado != null && darkModeSeleccionado == 'true') {
       var element = document.body;
       element.classList.add('dark-mode')
+   } else {
+      document.getElementById("Switch").click();
    }
 }
 
