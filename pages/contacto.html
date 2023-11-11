@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <script src="../js/darkmode.js"></script>
+    <script src="../js/contacto.js"></script>
     <title>Sobre mí</title>
   </head>
   <body onload="cargarModo()">
@@ -48,7 +49,7 @@
                 Si estas interesado en mi cv no dudes en contactarme:
               </h1>
 
-              <form id="fcf-form-id" class="fcf-form-class" method="post">
+              <form id="fcf-form-id" class="fcf-form-class">
                 <div class="fcf-form-group">
                   <label for="Name" class="fcf-label">Nombre</label>
                   <div class="fcf-input-group">
@@ -93,10 +94,10 @@
 
                 <div class="fcf-form-group">
                   <button
-                    type="submit"
-                    id="i"
+                    type="button"
+                    id="boton"
                     class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
-                    onclick="onBtnUp()"
+                    onclick="contacto()" 
                   >
                     Enviar
                   </button>

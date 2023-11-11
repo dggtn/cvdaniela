@@ -1,9 +1,8 @@
 let nombre;
-let apellido;
 let email;
-let comentarios;
+let mensaje;
 //validar formularios
-function contactoc(){
+function contacto(){
     let formularioValido = true;
     let emailValido = true
     let nombre= document.getElementById("nombre").value;
@@ -26,7 +25,7 @@ function contactoc(){
         formularioValido = false;
     }
     if (formularioValido == true){
-        alert ("Tomaremos en cuenta tu opinión") 
+        alert ("Gracias por tu interés en mi CV, ¡me pondré en contacto contigo lo antes posible!") 
         
     } else {
         alert ("Por favor complete todos los campos")
