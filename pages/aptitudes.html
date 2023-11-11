@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aptitudes</title>
     <link rel="stylesheet" href="../styles/styles.css" />
     <script src="../js/darkmode.js"></script>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Josefin+Sans&family=Playfair+Display:ital,wght@1,800&family=Roboto:wght@700&display=swap");
-    </style>
-    <script src="js/darkmode.js"></script>
+    <title>Sobre mí</title>
   </head>
   <body onload="cargarModo()">
     <!--el browser ejecuta esta función cuando ell body esta cargado-->
@@ -33,7 +29,13 @@
           <li class="nav-item">
             <a href="contacto.html"><p>Contacto</p></a>
           </li>
-          <button onclick="darkmode()" type="button"></button>
+          <div class="switch">
+            <input type="checkbox" class="switch__input" id="Switch">
+            <label onclick="darkmode()" type="checkbox" class="switch__label" for="Switch">
+                <span class="switch__indicator"></span>
+                <span class="switch__decoration"></span>
+            </label>
+        </div>
         </ul>
       </nav>
     </header>

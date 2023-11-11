@@ -38,8 +38,13 @@
               ><p>Contacto</p></a
             >
           </li>
-          <button  onclick="darkmode()" type="button"></button>
-          <!--ejecuta esta función para cambiar de modo (Oscuro o claro)-->
+          <div class="switch">
+            <input type="checkbox" class="switch__input" id="Switch">
+            <label onclick="darkmode()" type="checkbox" class="switch__label" for="Switch">
+                <span class="switch__indicator"></span>
+                <span class="switch__decoration"></span>
+            </label>
+        </div>
         </ul>
       </nav>
     </header>
@@ -52,7 +57,7 @@
             </h2>
             <p
               class="nombre"
-              style="font-size: 8rem; margin-top: 2px; margin-bottom: 1px"
+              style="font-size: 7rem; margin-top: 2px; margin-bottom: 1px"
             >
               <b>Daniela Gangotena</b>
             </p>
