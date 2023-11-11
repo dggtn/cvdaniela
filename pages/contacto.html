@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <script src="js/boton.js"></script>
+    <script src="../js/darkmode.js"></script>
     <title>Sobre mí</title>
   </head>
   <body>
@@ -31,6 +33,7 @@
           <li class="nav-item">
             <a href="contacto.html"><p style="color: white">Contacto</p></a>
           </li>
+          <button onclick="darkmode()" type="button"></button>
         </ul>
       </nav>
     </header>
@@ -43,18 +46,13 @@
                 Si estas interesado en mi cv no dudes en contactarme:
               </h1>
 
-              <form
-                id="fcf-form-id"
-                class="fcf-form-class"
-                method="post"
-                action="contact-form-process.php"
-              >
+              <form id="fcf-form-id" class="fcf-form-class" method="post">
                 <div class="fcf-form-group">
                   <label for="Name" class="fcf-label">Nombre</label>
                   <div class="fcf-input-group">
                     <input
                       type="text"
-                      id="Name"
+                      id="nombre"
                       name="Name"
                       class="fcf-form-control"
                       required
@@ -69,7 +67,7 @@
                   <div class="fcf-input-group">
                     <input
                       type="email"
-                      id="Email"
+                      id="email"
                       name="Email"
                       class="fcf-form-control"
                       required
@@ -81,7 +79,7 @@
                   <label for="Message" class="fcf-label">mensaje</label>
                   <div class="fcf-input-group">
                     <textarea
-                      id="Message"
+                      id="mensaje"
                       name="Message"
                       class="fcf-form-control"
                       rows="6"
@@ -96,9 +94,8 @@
                     type="submit"
                     id="i"
                     class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
-                  >
-                    Enviar Mensaje
-                  </button>
+                    onclick="onBtnUp()"
+                  >Enviar</button>
                 </div>
               </form>
             </div>

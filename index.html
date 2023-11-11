@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    
+    <script src="js/darkmode.js"></script>
     <title>Inicio</title>
   </head>
-  <body>
+  <body onload="cargarModo()"> <!--el browser ejecuta esta función cuando ell body esta cargado-->
     <header class="header">
       <nav>
         <input id="burger" type="checkbox" />
         <label for="burger" class="burger"> ☰ </label>
         <ul class="navbar">
-          <li class="nav-item">
+            <li class="nav-item">
             <a href="index.html"><p style="color: white">Inicio</p></a>
           </li>
           <li class="nav-item">
@@ -35,6 +37,7 @@
               ><p style="color: white">Contacto</p></a
             >
           </li>
+          <button onclick="darkmode()" type="button" ></button> <!--ejecuta esta función para cambiar de modo (Oscuro o claro)-->
         </ul>
       </nav>
     </header>
@@ -65,13 +68,13 @@
           <div class="texto-centrado">
             <p style="margin-top:0;margin-bottom:0;">Info:</p>
             <a style="margin-top:0;margin-bottom:0;"href="mailto:dgangotena@uade.edu.ar" target="_blank"
-              ><p style="color: white; font-style: normal;margin-top:0;margin-top:0;margin-bottom:0;">
+              ><p style="color: white; font-style: normal;margin-top:0;margin-top:0;margin-bottom:0;text-decoration:none;">
                 dgangotena@uade.edu.ar
               </p></a
             >
             <p>Telf:</p>
             <a href="https://wa.me/1150226798" target="_blank"
-              ><p style="color: white; font-style: normal;margin-top:0;margin-bottom:0;">1150226798</p></a
+              ><p style="color: white; font-style: normal;margin-top:0;margin-bottom:0;text-decoration:none;"></p>1150226798</p></a
             >
 
             <button stytle="margin-top:0;margin-bottom:3em;margin-top:0">Descargar cv</button>
