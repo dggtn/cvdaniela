@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Deca:wght@500&family=Rubik&display=swap");
 
 
-
+main{
+  margin-bottom: 100px;
+}
 .dark-mode .redes-sociales{
   background-color: black;
   color: white;
@@ -478,8 +480,8 @@ label.fcf-label {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -549,18 +551,19 @@ input[type="button"].fcf-btn-block {
 }
 .formacion {
   width: 75%;
-  margin-top: 15px;
+  margin-top: 0;
 }
 
 .formacion h3,
 .formacion h1,
 .formacion p,
 span {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   text-align: center;
   color: 1px solid white;
   font-family: "Gill Sans", "Gill Sans MT","Trebuchet MS", sans-serif;
   font-size:x-large;
+  
 }
 
 .contacto {
@@ -591,3 +594,4 @@ img a:hover {
   background-color: rgb(157, 205, 228);
   color: whitesmoke;
 }
+
