@@ -25,7 +25,10 @@ function contacto(){
         formularioValido = false;
     }
     if (formularioValido == true){
-        alert ("Gracias por tu interés en mi CV, ¡me pondré en contacto contigo lo antes posible!") 
+        alert ("Gracias por tu interés en mi CV, " + nombre + "  ¡me pondré en contacto contigo lo antes posible!") 
+        document.getElementById("nombre").value = ""
+        document.getElementById("email").value=""
+        document.getElementById("mensaje").value=""
         
     } else {
         alert ("Por favor complete todos los campos")
