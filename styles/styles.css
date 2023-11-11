@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Deca:wght@500&family=Rubik&display=swap");
 
-#---------------------------------------------header * {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .dark-mode .redes-sociales{
   background-color: black;
   color: white;
+}
+.dark-mode .fcf-body {
+  background-color: black;
+  color: white;
+  border-color: white;
+
 }
 .dark-mode .contacto{
   background-color: black;
@@ -503,6 +503,12 @@ label.fcf-label {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.dark-mode .fcf-btn-primary {
+  color: black;
+  background-color: white;
+  border-color: white;
 }
 
 .fcf-btn-primary:hover {

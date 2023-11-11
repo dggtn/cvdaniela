@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="js/boton.js"></script>
+    <script src="../js/boton.js"></script>
     <script src="../js/darkmode.js"></script>
     <title>Sobre mí</title>
   </head>
-  <body>
+  <body onload="cargarModo()"> <!--el browser ejecuta esta función cuando ell body esta cargado-->
     <header class="header">
       <nav>
         <input id="burger" type="checkbox" />
@@ -18,7 +18,7 @@
             <a href="../index.html"><p style="color: white">Inicio</p></a>
           </li>
           <li class="nav-item">
-            <a href="sobremi.html"><p style="color: white">Sobre mí</p></a>
+            <a href="sobremi.html"><p style="color: white">Sobre mí</p></a> 
           </li>
           <li class="nav-item">
             <a href="formacion.html"
