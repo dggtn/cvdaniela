@@ -465,6 +465,14 @@ label.fcf-label {
   color:#c78e2a;
 }
 
+.dark-mode label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  color:white;
+}
+
 .fcf-credit {
   padding-top: 10px;
   font-size: 0.9rem;
