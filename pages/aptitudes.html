@@ -12,7 +12,18 @@
     <header class="header">
       <nav>
         <input id="burger" type="checkbox" />
-        <label for="burger" class="burger"> ☰ </label>
+        <label for="burger" class="burger"> ☰   <div class="switch hide-on-desktop">
+            <input type="checkbox" class="switch__input" id="Switch" />
+            <label
+              onclick="darkmode()"
+              type="checkbox"
+              class="switch__label"
+              for="Switch"
+            >
+              <span class="switch__indicator"></span>
+              <span class="switch__decoration"></span>
+            </label>
+          </div></label>
         <ul class="navbar">
           <li class="nav-item">
             <a href="../index.html"><p>Inicio</p></a>
@@ -29,7 +40,7 @@
           <li class="nav-item">
             <a href="contacto.html"><p>Contacto</p></a>
           </li>
-          <div class="switch">
+          <div class="switch hide-on-mobile">
             <input type="checkbox" class="switch__input" id="Switch" />
             <label
               onclick="darkmode()"
