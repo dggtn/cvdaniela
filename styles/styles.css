@@ -305,7 +305,7 @@ svg {
 }
 
 .dark-mode .amarillo h2{
-  color:#cba667;
+  color:white;
 }
 
 .seccion-bienvenida-fondo-azul {
@@ -397,7 +397,8 @@ div.center {
 }
 
 .fcf-body {
-  margin: 0;
+
+  margin-left:0;
   font-family: -apple-system, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -407,7 +408,7 @@ div.center {
   background-color: #F2E7D4;
   padding: 30px;
   padding-bottom: 10px;
-  border: 1px solid #F2E7D4;
+  border: 3px solid #d7ac61;
   border-radius: 0.25rem;
   max-width: 100%;
   size: x-small;
@@ -465,6 +466,7 @@ label.fcf-label {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: justify;
   color:#c78e2a;
+  font-size: 1.5rem;
 }
 
 .dark-mode label.fcf-label {
@@ -473,6 +475,7 @@ label.fcf-label {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: justify;
   color:white;
+  font-size: 1.5rem;
 }
 
 .fcf-credit {
