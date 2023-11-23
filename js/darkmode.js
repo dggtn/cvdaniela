@@ -27,3 +27,5 @@ function darkmode() {
    var darkModeSeleccionado = element.classList.toggle("dark-mode");
    localStorage.setItem('darkMode', darkModeSeleccionado);
 }
+
+cargarModo();
