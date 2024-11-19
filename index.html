@@ -1,125 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
-
-    
     <title>Inicio</title>
-  </head>
-  <body>
-    <!--el browser ejecuta esta función cuando ell body esta cargado-->
+</head>
+
+<body>
     <header class="header">
-      <nav>
-        <input id="burger" type="checkbox" />
-        <label for="burger" class="burger"> ☰ </label>
-        <ul class="navbar">
-          <li class="nav-item">
-            <a href="index.html"><p>Inicio</p></a>
-          </li>
-          <li class="nav-item">
-            <a href="pages/sobremi.html"><p>Sobre mí</p></a>
-          </li>
-          <li class="nav-item">
-            <a href="pages/formacion.html"><p>Formación y experiencia</p> </a>
-          </li>
-          <li class="nav-item">
-            <a href="pages/aptitudes.html"><p>Aptitudes e idiomas</p></a>
-          </li>
-          <li class="nav-item">
-            <a href="pages/contacto.html"><p>Contacto</p></a>
-          </li>
-          <div class="switch">
-            <input type="checkbox" class="switch__input" id="Switch" />
-            <label
-              onclick="darkmode()"
-              type="checkbox"
-              class="switch__label"
-              for="Switch"
-            >
-              <span class="switch__indicator"></span>
-              <span class="switch__decoration"></span>
-            </label>
-          </div>
-        </ul>
-      </nav>
+        <nav>
+            <input id="burger" type="checkbox" />
+            <label for="burger" class="burger"> ☰ </label>
+            <ul class="navbar">
+                <li class="nav-item"><a href="index.html"><span>Inicio</span></a></li>
+                <li class="nav-item"><a href="pages/sobremi.html"><span>Sobre mí</span></a></li>
+                <li class="nav-item"><a href="pages/formacion.html"><span>Formación y experiencia</span></a></li>
+                <li class="nav-item"><a href="pages/aptitudes.html"><span>Aptitudes e idiomas</span></a></li>
+                <li class="nav-item"><a href="pages/contacto.html"><span>Contacto</span></a></li>
+                <div class="switch">
+                    <input type="checkbox" class="switch__input" id="Switch" />
+                    <label onclick="darkmode()" for="Switch" class="switch__label">
+                        <span class="switch__indicator"></span>
+                        <span class="switch__decoration"></span>
+                    </label>
+                </div>
+            </ul>
+        </nav>
     </header>
+
     <main>
-      <div class="contenedor">
-        <div class="presentacion">
-          <div class="alineacion">
-            <h2 style="font-size: 5rem; margin-bottom: 2rem">
-              <b>HOLA, SOY</b>
-            </h2>
-            <p class="nombre">
-              <b>Daniela Gangotena</b>
-            </p>
-            <h2 class="white" style="font-size: 2rem; margin-top: 0.5rem">
-              <b>Estudiante de gestión de tecnología de la información</b>
-            </h2>
-          </div>
-        </div>
-        <div class="columna" style="padding-bottom: 10em;">
-          <img class="foto_cv" style="margin-bottom: 0" src="img/fotocv.png" />
-          <p class="nombre" style="font-size: 2rem"><b>Daniela Gangotena</b></p>
+        <div class="contenedor">
+            <section class="presentacion">
+                <div class="alineacion">
+                    <h2 class="main-heading">HOLA, SOY</h2>
+                    <p class="nombre"><strong>Daniela Gangotena</strong></p>
+                    <h2 class="subtitle">Estudiante de gestión de tecnología de la información</h2>
+                </div>
+            </section>
 
-          <p style="margin-top: 0.5rem;" class="texto-centrado">
-            Estudiante de gestión de tecnología de la información
-          </p>
-          <div class="texto-centrado">
-            <p style="margin-top: 0; margin-bottom: 0">Info:</p>
-            <a
-              style="margin-top: 0; margin-bottom: 0"
-              href="mailto:dgangotena@uade.edu.ar"
-              target="_blank"
-              ><p
-                style="
-                  font-style: normal;
-                  margin-top: 0;
-                  margin-top: 0;
-                  margin-bottom: 0;
-                  text-decoration: none;
-                "
-              >
-                dgangotena@uade.edu.ar
-              </p></a
-            >
-            <p>Telf:</p>
-            <a href="https://wa.me/1150226798" target="_blank"
-              ><p
-                style="
-                  font-style: normal;
-                  margin-top: 0;
-                  margin-bottom: 0;
-                  text-decoration: none;
-                "
-              >
-                1150226798
-              </p></a
-            >
-            <a class="boton" href="img/cv.jpeg" download>Descargar cv</a>
-          </div>
+            <section class="columna">
+                <img class="foto_cv" src="img/fotocv.png" alt="Foto de Daniela Gangotena" loading="lazy" />
+                <p class="nombre"><strong>Daniela Gangotena</strong></p>
+                <p class="texto-centrado">Estudiante de gestión de tecnología de la información</p>
+                <div class="texto-centrado">
+                    <p>Info:</p>
+                    <a href="mailto:dgangotena@uade.edu.ar" class="contact-link" target="_blank">
+                        dgangotena@uade.edu.ar
+                    </a>
+                    <p>Telf:</p>
+                    <a href="https://wa.me/1150226798" class="contact-link" target="_blank">
+                        1150226798
+                    </a>
+                    <a class="boton" href="img/cv.jpeg" download>Descargar CV</a>
+                </div>
+            </section>
         </div>
-      </div>
     </main>
-    <footer class="footer">
-      <div class="contacto redes-sociales">
-        <a href="https://github.com/dggtn9" target="_blank">
-          <img src="img/github.png" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
-          target="_blank"
-        >
-          <img src="img/linkedin.png" />
-        </a>
-      </div>
 
-      <div class="copyright">
-        <p>© 2023 Creado por Daniela Gangotena</p>
-      </div>
+    <footer class="footer">
+        <div class="contacto redes-sociales">
+            <a href="https://github.com/dggtn9" target="_blank" aria-label="GitHub">
+                <img src="img/github.png" alt="GitHub Logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/daniela-gangotena-265031288/" target="_blank" aria-label="LinkedIn">
+                <img src="img/linkedin.png" alt="LinkedIn Logo" />
+            </a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2023 Creado por Daniela Gangotena</p>
+        </div>
     </footer>
-  </body>
-  <script src="js/darkmode.js"></script>
+
+    <script src="js/darkmode.js" defer></script>
+</body>
+
 </html>
