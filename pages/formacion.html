@@ -4,126 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
-    
+    <script src="../js/darkmode.js" defer></script>
     <title>Sobre mí</title>
   </head>
   <body>
-    <!--el browser ejecuta esta función cuando ell body esta cargado-->
+    <!-- Header Section -->
     <header class="header">
       <nav>
-        <input id="burger" type="checkbox" />
-        <label for="burger" class="burger"> ☰ </label>
+        <input id="burger" type="checkbox" aria-label="Toggle navigation" />
+        <label for="burger" class="burger" aria-hidden="true">☰</label>
         <ul class="navbar">
           <li class="nav-item">
-            <a href="../index.html"><p>Inicio</p></a>
+            <a href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="sobremi.html"><p>Sobre mí</p></a>
+            <a href="sobremi.html">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a href="formacion.html"><p>Formación y experiencia</p> </a>
+            <a href="formacion.html">Formación y experiencia</a>
           </li>
           <li class="nav-item">
-            <a href="aptitudes.html"><p>Aptitudes e idiomas</p></a>
+            <a href="aptitudes.html">Aptitudes e idiomas</a>
           </li>
           <li class="nav-item">
-            <a href="contacto.html"><p>Contacto</p></a>
+            <a href="contacto.html">Contacto</a>
           </li>
-          <div class="switch">
+          <li class="switch">
             <input type="checkbox" class="switch__input" id="Switch" />
-            <label
-              onclick="darkmode()"
-              type="checkbox"
-              class="switch__label"
-              for="Switch"
-            >
+            <label onclick="darkmode()" class="switch__label" for="Switch">
               <span class="switch__indicator"></span>
               <span class="switch__decoration"></span>
             </label>
-          </div>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <!-- Main Content Section -->
     <main>
-      <div class="contenedor">
-        <div class="columna columna-2">
+      <section class="contenedor">
+        <!-- Formación Section -->
+        <section class="columna columna-2">
           <div class="formacion">
-            <h1
-              style="
-                justify-content: center;
-                font-size: 3em;
-                margin-top: 1rem;
-                margin-bottom: 0;
-              "
-            >
-              Formación
-            </h1>
+            <h1 class="formacion-title">Formación</h1>
             <p>MIS CONOCIMIENTOS</p>
-            <h3>Agosto 2023-Actualidad:</h3>
-            <span>
-              Gestión de tecnología de la información-Universidad Argentina de
-              la Empresa.
-            </span>
+            <h3>Agosto 2023 - Actualidad:</h3>
+            <span>Gestión de tecnología de la información - Universidad Argentina de la Empresa</span>
           </div>
           <div class="formacion">
-            <h3>2020-2021:</h3>
-            <span
-              >Alemán en el Instituto Técnico Wifi Vorarlberg en Austria.</span
-            >
+            <h3>2020 - 2021:</h3>
+            <span>Alemán en el Instituto Técnico Wifi Vorarlberg en Austria</span>
           </div>
           <div class="formacion">
-            <h3>2017-2018:</h3>
-            <span> Francés en la Universidad de Rennes 2 en Francia. </span>
+            <h3>2017 - 2018:</h3>
+            <span>Francés en la Universidad de Rennes 2 en Francia</span>
           </div>
-        </div>
-        <div class="columna columna-2"style="padding-bottom: 8rem;">
+        </section>
+
+        <!-- Experiencia Section -->
+        <section class="columna columna-2" style="padding-bottom: 8rem;">
           <div class="formacion">
-            <h1
-              style="justify-content: center; font-size: 3em; margin-top: 1rem"
-            >
-              <b></b>Experiencia
-            </h1>
+            <h1 class="formacion-title">Experiencia</h1>
             <p>TRAYECTORIA PROFESIONAL</p>
           </div>
           <div class="formacion">
-            <h3>2020-Actualidad:</h3>
-            <span>
-              Community Manager empresa Juan Granel - Quito, Ecuador.
-            </span>
+            <h3>2020 - Actualidad:</h3>
+            <span>Community Manager en la empresa Juan Granel - Quito, Ecuador</span>
           </div>
           <div class="formacion">
             <h3>2019:</h3>
-            <span
-              >Guía Turística en Kapawi Eco-Lodge - Amazonía Ecuatoriana</span
-            >
+            <span>Guía Turística en Kapawi Eco-Lodge - Amazonía Ecuatoriana</span>
           </div>
           <div class="formacion">
-            <h3>2015-2017:</h3>
-            <span 
-              >Servicio de Atención al Cliente en empresa Juan Granel - Quito,
-              Ecuador.
-            </span>
+            <h3>2015 - 2017:</h3>
+            <span>Servicio de Atención al Cliente en la empresa Juan Granel - Quito, Ecuador</span>
           </div>
-        </div>
-      </div>
+        </section>
+      </section>
     </main>
-    <footer class="footer">
-      <div class="contacto redes-sociales">
-        <a href="https://github.com/dggtn9" target="_blank">
-          <img src="../img/github.png" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
-          target="_blank"
-        >
-          <img src="../img/linkedin.png" />
-        </a>
-      </div>
 
-      <div class="copyright">
+    <!-- Footer Section -->
+    <footer class="footer">
+      <section class="contacto redes-sociales">
+        <a href="https://github.com/dggtn" target="_blank" aria-label="GitHub">
+          <img src="../img/github.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/daniela-gangotena-265031288/" target="_blank" aria-label="LinkedIn">
+          <img src="../img/linkedin.png" alt="LinkedIn" />
+        </a>
+      </section>
+
+      <section class="copyright">
         <p>© 2023 Creado por Daniela Gangotena</p>
-      </div>
+      </section>
     </footer>
   </body>
-  <script src="../js/darkmode.js"></script>
 </html>
