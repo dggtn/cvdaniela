@@ -4,58 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="../js/contacto.js"></script>
-    <title>Sobre mí</title>
+    <script src="../js/contacto.js" defer></script>
+    <title>Contacto</title>
   </head>
   <body>
-    <!--el browser ejecuta esta función cuando ell body esta cargado-->
+    <!-- Header Section -->
     <header class="header">
       <nav>
-        <input id="burger" type="checkbox" />
-        <label for="burger" class="burger"> ☰ </label>
+        <input id="burger" type="checkbox" aria-label="Toggle navigation" />
+        <label for="burger" class="burger" aria-hidden="true">☰</label>
         <ul class="navbar">
           <li class="nav-item">
-            <a href="../index.html"><p>Inicio</p></a>
+            <a href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="sobremi.html"><p>Sobre mí</p></a>
+            <a href="sobremi.html">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a href="formacion.html"><p>Formación y experiencia</p> </a>
+            <a href="formacion.html">Formación y experiencia</a>
           </li>
           <li class="nav-item">
-            <a href="aptitudes.html"><p>Aptitudes e idiomas</p></a>
+            <a href="aptitudes.html">Aptitudes e idiomas</a>
           </li>
           <li class="nav-item">
-            <a href="contacto.html"><p>Contacto</p></a>
+            <a href="contacto.html">Contacto</a>
           </li>
-          <div class="switch">
+          <li class="switch">
             <input type="checkbox" class="switch__input" id="Switch" />
-            <label
-              onclick="darkmode()"
-              type="checkbox"
-              class="switch__label"
-              for="Switch"
-            >
+            <label onclick="darkmode()" class="switch__label" for="Switch">
               <span class="switch__indicator"></span>
               <span class="switch__decoration"></span>
             </label>
-          </div>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <!-- Main Content Section -->
     <main>
-      <div class="contenedor">
+      <section class="contenedor">
         <div class="columna3">
           <div class="fcf-body">
             <div id="fcf-form">
               <h1 class="fcf-h1" style="font-size: 2rem;">
-                Si estas interesado en mi cv no dudes en contactarme:
+                Si estás interesado en mi CV, no dudes en contactarme:
               </h1>
 
-              <form id="fcf-form-id" class="fcf-form-class">
+              <!-- Contact Form -->
+              <form id="fcf-form-id" class="fcf-form-class" method="post" action="submit_form_endpoint">
                 <div class="fcf-form-group">
-                  <label for="Name" class="fcf-label">Nombre</label>
+                  <label for="nombre" class="fcf-label">Nombre</label>
                   <div class="fcf-input-group">
                     <input
                       type="text"
@@ -63,14 +61,14 @@
                       name="Name"
                       class="fcf-form-control"
                       required
+                      aria-required="true"
+                      placeholder="Tu nombre"
                     />
                   </div>
                 </div>
 
                 <div class="fcf-form-group">
-                  <label for="Email" class="fcf-label"
-                    >correo electrónico</label
-                  >
+                  <label for="email" class="fcf-label">Correo electrónico</label>
                   <div class="fcf-input-group">
                     <input
                       type="email"
@@ -78,12 +76,14 @@
                       name="Email"
                       class="fcf-form-control"
                       required
+                      aria-required="true"
+                      placeholder="Tu correo electrónico"
                     />
                   </div>
                 </div>
 
                 <div class="fcf-form-group">
-                  <label for="Message" class="fcf-label">mensaje</label>
+                  <label for="mensaje" class="fcf-label">Mensaje</label>
                   <div class="fcf-input-group">
                     <textarea
                       id="mensaje"
@@ -92,16 +92,17 @@
                       rows="6"
                       maxlength="3000"
                       required
+                      aria-required="true"
+                      placeholder="Escribe tu mensaje"
                     ></textarea>
                   </div>
                 </div>
 
                 <div class="fcf-form-group">
                   <button
-                    type="button"
+                    type="submit"
                     id="boton"
                     class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
-                    onclick="contacto()"
                   >
                     Enviar
                   </button>
@@ -110,25 +111,26 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="footer">
-      <div class="contacto redes-sociales">
-        <a href="https://github.com/dggtn9" target="_blank">
-          <img src="../img/github.png" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/daniela-gangotena-265031288/"
-          target="_blank"
-        >
-          <img src="../img/linkedin.png" />
-        </a>
-      </div>
 
-      <div class="copyright">
+    <!-- Footer Section -->
+    <footer class="footer">
+      <section class="contacto redes-sociales">
+        <a href="https://github.com/dggtn" target="_blank" aria-label="GitHub">
+          <img src="../img/github.png" alt="GitHub icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/daniela-gangotena-265031288/" target="_blank" aria-label="Visit my LinkedIn profile">
+          <img src="../img/linkedin.png" alt="LinkedIn icon" />
+        </a>
+      </section>
+
+      <section class="copyright">
         <p>© 2023 Creado por Daniela Gangotena</p>
-      </div>
+      </section>
     </footer>
+
+    <!-- Scripts -->
+    <script src="../js/darkmode.js" defer></script>
   </body>
-  <script src="../js/darkmode.js"></script>
 </html>
